@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Coin Combos</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Coin Combinations</h3>
+
+      <form id="coins">
+        <label for="change">Enter amount of change:</label>
+        <input id="change" type="text">
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="result">
+        <ul class="list-unstyled">
+          <li>Quarters: <span class="quarters"></span></li>
+          <li>Dimes: <span class="dimes"></span></li>
+          <li>Nickels: <span class="nickels"></span></li>
+          <li>Pennies: <span class="pennies"></span></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
